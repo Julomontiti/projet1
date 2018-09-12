@@ -1,0 +1,23 @@
+body {
+	background-color: #b8e3ff;
+}
+header, section {
+	background-color: white;
+}
+h2 {
+	background-color: #de333f;
+	color: white;
+	text-align: center;
+}
+.slogan {
+	text-align: center;
+}
+.navbar{
+    background-color: #de333f;
+}
+#temoin2{
+	text-align: right;
+}
+#videolinus{
+	margin: 15px
+}
