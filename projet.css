@@ -1,0 +1,50 @@
+body
+{
+	background-color:#9bb6d1;
+}
+
+#sectionExercices .modal-dialog
+{
+	max-width:1000px;
+	margin:auto;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+#sectionExercices .modal-header h3, #sectionExercices .modal-footer button
+{
+	margin:auto;
+}
+
+#sectionExercices .close
+{
+	margin-left:0px;
+}
+
+#sectionExercices .modal p
+{
+	margin:15px;
+}
+
+#sectionExercices h2, #sectionExercices h4
+{
+	text-align:center;
+}
+
+#sectionExercices img
+{
+	border:1px solid black;
+}
+
+#sectionExercices .row .col-6, #sectionExercices .row .col-md-3
+{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+.container
+{
+	border:1px solid black;
+	background-color:white;
+	padding:15px;
+}
