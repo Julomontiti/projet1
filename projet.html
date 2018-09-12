@@ -9,6 +9,79 @@
     <title>Projet 1</title>
   </head>
   <body>
+    <div class="container">
+      <section>
+          <div class="media allForm">
+            <div class="media-body">
+              <h2 class="mt-0">Nous contacter</h2>
+              <form>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1"></label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Addresse mail">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1"></label>
+                  <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Nom">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1"></label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Votre message..." rows="3"></textarea>
+                </div>
+                <button type="button" class="btn btn-primary btn-sm">Envoyer</button>
+              </form>
+            </div>
+            <img class="align-self-center mr-3" src="https://nsa39.casimages.com/img/2018/09/12/180912104521552590.png" alt="Generic placeholder image">
+          </div>
+          <div class="row justify-content-center allForm">
+          <p>Mentions légales</p>
+        </div>
+      </section>
+    </div>
+
+    <section class="formModal">
+      <div class="row justify-content-center">
+        <button type="button" class="btn btn-primary formModal" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Nous contacter</button>
+      </div>
+
+
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h2 class="modal-title" id="exampleModalLabel">Nous contacter</h2>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1"></label>
+                      <input type="email" class="form-control" id="mail" placeholder="Addresse mail">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1"></label>
+                      <input type="text" class="form-control" id="nom" placeholder="Nom">
+                    </div>
+                    <div class="form-group">
+                      <label for="message-text" class="col-form-label"></label>
+                      <textarea class="form-control" id="message-text" placeholder="Votre message..." rows="3"></textarea>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                  <button type="button" class="btn btn-primary">Envoyer</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="row justify-content-center">
+          <p>Mentions légales</p>
+        </div>
+    </section>
+
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

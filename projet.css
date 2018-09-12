@@ -1,0 +1,19 @@
+@media all and (min-width: 768px){
+	.formModal{
+		visibility: hidden;
+	}
+}
+
+@media all and (max-width: 768px){
+	.allForm{
+		display: none;
+	}
+}
+body{
+	background-color: #b8e3ff;
+}
+section{
+	background-color: white;
+	padding-right: 15px;
+	padding-left: 20px;
+}
