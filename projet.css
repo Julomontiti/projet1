@@ -1,6 +1,4 @@
-body {
-	background-color: #b8e3ff;
-}
+
 header, section {
 	background-color: white;
 }
@@ -38,3 +36,86 @@ h2 {
 	width: 100%;
 	height: 100%;
 }
+
+body
+{
+	background-color:#F6F7FA;
+}
+
+#sectionExercices
+{
+	background-color:#79BBBF;
+}
+
+#sectionExercices .col-6 h4, #sectionExercices .col-md-3 h4
+{
+	background-color:#f3f3f3;
+	color:#484c4f;
+}
+
+
+#sectionExercices .modal-dialog
+{
+	max-width:1000px;
+	margin:auto;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+#sectionExercices .modal-header h3, #sectionExercices .modal-footer button
+{
+	margin:auto;
+}
+
+#sectionExercices .close
+{
+	margin-left:0px;
+}
+
+#sectionExercices .modal p
+{
+	margin:15px;
+}
+
+#sectionExercices h2, #sectionExercices h4
+{
+	text-align:center;
+}
+
+#sectionExercices h2
+{
+	color:white;
+}
+
+#sectionExercices .row .col-6, #sectionExercices .row .col-md-3
+{
+	margin-top:30px;
+	margin-bottom:30px;
+	width:200px;
+	height:200px;
+}
+
+#sectionExercices .row
+{
+	margin:0px;
+	width:100%;
+}
+
+#sectionExercices .row .card
+{
+	width:100%;
+	margin:auto;
+	overflow:auto;
+}
+
+.container
+{
+	background-color:white;
+	padding:0px;
+	-moz-box-shadow: 1px 1px 60px 0px #656565;
+	-webkit-box-shadow: 1px 1px 60px 0px #656565;
+	-o-box-shadow: 1px 1px 60px 0px #656565;
+	box-shadow: 1px 1px 60px 0px #656565;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=60);
+}
+
