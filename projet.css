@@ -1,7 +1,19 @@
 body
 {
-	background-color:#9bb6d1;
+	background-color:#F6F7FA;
 }
+
+#sectionExercices
+{
+	background-color:#79BBBF;
+}
+
+#sectionExercices .col-6 h4, #sectionExercices .col-md-3 h4
+{
+	background-color:#f3f3f3;
+	color:#484c4f;
+}
+
 
 #sectionExercices .modal-dialog
 {
@@ -31,20 +43,39 @@ body
 	text-align:center;
 }
 
-#sectionExercices img
+#sectionExercices h2
 {
-	border:1px solid black;
+	color:white;
 }
 
 #sectionExercices .row .col-6, #sectionExercices .row .col-md-3
 {
 	margin-top:30px;
 	margin-bottom:30px;
+	width:200px;
+	height:200px;
+}
+
+#sectionExercices .row
+{
+	margin:0px;
+	width:100%;
+}
+
+#sectionExercices .row .card
+{
+	width:100%;
+	margin:auto;
+	overflow:auto;
 }
 
 .container
 {
-	border:1px solid black;
 	background-color:white;
-	padding:15px;
+	padding:0px;
+	-moz-box-shadow: 1px 1px 60px 0px #656565;
+	-webkit-box-shadow: 1px 1px 60px 0px #656565;
+	-o-box-shadow: 1px 1px 60px 0px #656565;
+	box-shadow: 1px 1px 60px 0px #656565;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=60);
 }
