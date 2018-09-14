@@ -1,4 +1,5 @@
 
+
 header, section {
 	background-color: white;
 }
@@ -117,5 +118,43 @@ body
 	-o-box-shadow: 1px 1px 60px 0px #656565;
 	box-shadow: 1px 1px 60px 0px #656565;
 	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=60);
+}
+
+#materiaux  .conseils
+{
+	margin-bottom: 50px;
+}
+#materiaux 
+{
+	background-color: white;
+}
+#materiaux .media p
+{
+	text-align: justify;
+}
+#materiaux .conseils p
+{
+	text-align: justify;
+}
+#materiaux .conseils img
+{
+	float: right;
+}
+#materiaux .mr-3
+{
+	width: 150px;
+	height: 150px;
+}
+#materiaux .ml-3
+{
+	width: 250px;
+	height: 150px;
+}
+
+#materiaux .cadre
+{
+	border: 1px solid black;
+	border-radius: 5px;
+	overflow: auto;
 }
 
