@@ -9,9 +9,22 @@ h2 {
 .slogan {
 	text-align: center;
 }
-.navbar{
+.navbar {
     background-color: #de333f;
+    width: 100%;
 }
+
+#sectionaccueil {
+	padding: 15px;
+	margin: 20px;
+}
+
+#accueil p {
+	padding: 15px;
+	margin: 20px;
+}
+
+
 #temoin2{
 	text-align: right;
 }
@@ -110,6 +123,7 @@ body
 .container
 {
 	background-color:white;
+	padding-top:56px;
 	padding:0px;
 	-moz-box-shadow: 1px 1px 60px 0px #656565;
 	-webkit-box-shadow: 1px 1px 60px 0px #656565;
@@ -117,8 +131,7 @@ body
 	box-shadow: 1px 1px 60px 0px #656565;
 	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=60);
 }
-
-#materiaux  .conseils
+.conseils
 {
 	margin-bottom: 50px;
 }
@@ -134,7 +147,7 @@ body
 {
 	text-align: justify;
 }
-#materiaux .conseils img
+#allerplusloin  img
 {
 	float: right;
 }
@@ -143,13 +156,13 @@ body
 	width: 150px;
 	height: 150px;
 }
-#materiaux .ml-3
+#allerplusloin .ml-3
 {
 	width: 250px;
 	height: 150px;
 }
 
-#materiaux .cadre
+#allerplusloin .cadre
 {
 	border: 1px solid black;
 	border-radius: 5px;
