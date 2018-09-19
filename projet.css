@@ -81,13 +81,28 @@ body
 .sectionContact {
 	background-color: #fdf0e5;
 }
+.allForm{
+	padding-left: 35px;
+}
 
 #sectionExercices .col-6 h4, #sectionExercices .col-md-3 h4
 {
 	background-color:#f3f3f3;
 	color:#484c4f;
 }
-
+.logo{
+	width: 200px;
+}
+.logoAcc {
+	width: 300px;
+	padding-bottom: 40px;
+	padding-left: 50px;
+}
+.intro{
+	padding-top: 20px;
+	padding-right: 10%;
+	padding-bottom: 30px;
+}
 
 #sectionExercices .modal-dialog
 {
