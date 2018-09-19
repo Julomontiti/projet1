@@ -145,12 +145,19 @@ body
 	background-color:white;
 	padding-top:56px;
 	padding:0px;
+}
+
+@media (min-width: 576px)
+{
+	.container{
 	-moz-box-shadow: 1px 1px 60px 0px #656565;
 	-webkit-box-shadow: 1px 1px 60px 0px #656565;
 	-o-box-shadow: 1px 1px 60px 0px #656565;
 	box-shadow: 1px 1px 60px 0px #656565;
 	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=60);
+	}
 }
+
 .conseils
 {
 	margin-bottom: 50px;
@@ -239,5 +246,3 @@ body
 {
 	width:100%;
 }
-
-
