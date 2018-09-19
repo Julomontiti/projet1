@@ -202,8 +202,9 @@ body
 
 #allerplusloin .cadre
 {
-	border: 1px solid black;
+	borr: 1px solid black;
 	border-radius: 5px;
+	padding: 10px;
 	overflow: auto;
 }
 
@@ -220,6 +221,8 @@ body
 	}
 }
 
+<<<<<<< HEAD
+=======
 .carousel-inner p
 {
 	font-size:24px;
@@ -259,3 +262,4 @@ body
 }
 
 
+>>>>>>> master
