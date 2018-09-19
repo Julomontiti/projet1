@@ -1,17 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300');
+
 header, section {
 	background-color: white;
 }
+
+h1 {
+	margin: 20px;
+	
+}
 h2 {
-	background-color: #de333f;
+	background-color: #f3aa00 ; /*#de333f = rouge #ed9f00 | #eda700 = orange eda700b3 = jaune */ 
 	color: white;
 	text-align: center;
+}
+h1,h2{
+	font-family: 'Montserrat', sans-serif;
+}
+h3, p, h4, h5, h6 {
+	font-family: 'Open Sans', sans-serif;
 }
 .slogan {
 	text-align: center;
 }
-.navbar{
-    background-color: #de333f;
+.navbar {
+    background-color: #f3aa00; /*#47c0bc;*/
+    width: 100%;
 }
+
+#sectionaccueil {
+	padding: 15px;
+	margin: 20px;
+}
+
+#accueil p {
+	padding: 15px;
+	margin: 20px;
+}
+
+
 #temoin2{
 	text-align: right;
 }
@@ -40,10 +67,19 @@ body
 {
 	background-color:#F6F7FA;
 }
+.sectionAccueil{
+	background-color: #fdf0e5; /*#d446514d; | d446511a = rose pale*/
+}
+.sectionConseils{
+	background-color: #d7ecee;
+}
 
 #sectionExercices
 {
-	background-color:#79BBBF;
+	background-color:white;/* #d7ecee = couleurs bleu/vert .... #de333f = rouge*/
+}
+.sectionContact {
+	background-color: #fdf0e5;
 }
 
 #sectionExercices .col-6 h4, #sectionExercices .col-md-3 h4
@@ -110,6 +146,7 @@ body
 .container
 {
 	background-color:white;
+	padding-top:56px;
 	padding:0px;
 	-moz-box-shadow: 1px 1px 60px 0px #656565;
 	-webkit-box-shadow: 1px 1px 60px 0px #656565;
@@ -117,14 +154,13 @@ body
 	box-shadow: 1px 1px 60px 0px #656565;
 	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=60);
 }
-
-#materiaux  .conseils
+.conseils
 {
 	margin-bottom: 50px;
 }
 #materiaux 
 {
-	background-color: white;
+	background-color: #22338080;
 }
 #materiaux .media p
 {
@@ -134,7 +170,7 @@ body
 {
 	text-align: justify;
 }
-#materiaux .conseils img
+#allerplusloin  img
 {
 	float: right;
 }
@@ -143,13 +179,13 @@ body
 	width: 150px;
 	height: 150px;
 }
-#materiaux .ml-3
+#allerplusloin .ml-3
 {
 	width: 250px;
 	height: 150px;
 }
 
-#materiaux .cadre
+#allerplusloin .cadre
 {
 	borr: 1px solid black;
 	border-radius: 5px;
@@ -170,3 +206,45 @@ body
 	}
 }
 
+<<<<<<< HEAD
+=======
+.carousel-inner p
+{
+	font-size:24px;
+}
+
+.carousel-inner h5
+{
+	font-size:50px;
+}
+
+.carousel
+{
+	width:100%;
+	margin-left:15px;
+	margin-right:15px;
+}
+
+@media (max-width: 399.98px) 
+{
+	header .row
+	{
+		display:none;
+	}
+}
+
+@media (min-width: 400px) 
+{
+	.sliderMobile
+	{
+		display: none;
+	}
+}
+
+.sliderMobile
+{
+	width:100%;
+}
+
+
+>>>>>>> master
