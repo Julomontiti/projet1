@@ -151,8 +151,9 @@ body
 
 #materiaux .cadre
 {
-	border: 1px solid black;
+	borr: 1px solid black;
 	border-radius: 5px;
+	padding: 10px;
 	overflow: auto;
 }
 
@@ -168,5 +169,4 @@ body
 		display: none;
 	}
 }
-
 
