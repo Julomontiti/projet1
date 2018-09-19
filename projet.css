@@ -1,6 +1,19 @@
 header, section {
 	background-color: white;
 }
+
+h1 {
+  font-size: 48px;
+  text-shadow: -1px -1px #f00, 1px 1px #a00, -3px 0 4px #000;
+  color: #de333f;
+  padding:10px 0 0 0;
+  margin:16px auto;
+  min-height:172px;
+  min-width:800;
+  max-height:172px;
+  max-width:800px;  
+}
+
 h2 {
 	background-color: #de333f;
 	color: white;
@@ -180,6 +193,21 @@ body
 	.allForm{
 		display: none;
 	}
+}
+
+.carousel-inner p
+{
+	font-size:24px;
+}
+
+.carousel-inner h5
+{
+	font-size:50px;
+}
+
+.carousel
+{
+	width:100%;
 }
 
 
