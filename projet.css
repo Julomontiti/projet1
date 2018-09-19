@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300');
+
 header, section {
 	background-color: white;
 }
@@ -7,21 +10,21 @@ h1 {
 	
 }
 h2 {
-	background-color: #de333f;
+	background-color: #f3aa00 ; /*#de333f = rouge #ed9f00 | #eda700 = orange eda700b3 = jaune */ 
 	color: white;
 	text-align: center;
 }
 h1,h2{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 h3, p, h4, h5, h6 {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .slogan {
 	text-align: center;
 }
 .navbar {
-    background-color: #de333f;
+    background-color: #f3aa00; /*#47c0bc;*/
     width: 100%;
 }
 
@@ -65,7 +68,7 @@ body
 	background-color:#F6F7FA;
 }
 .sectionAccueil{
-	background-color: #fdf0e5;
+	background-color: #fdf0e5; /*#d446514d; | d446511a = rose pale*/
 }
 .sectionConseils{
 	background-color: #d7ecee;
@@ -73,7 +76,7 @@ body
 
 #sectionExercices
 {
-	background-color:#d7ecee;
+	background-color:white;/* #d7ecee = couleurs bleu/vert .... #de333f = rouge*/
 }
 .sectionContact {
 	background-color: #fdf0e5;
@@ -157,7 +160,7 @@ body
 }
 #materiaux 
 {
-	background-color: white;
+	background-color: #22338080;
 }
 #materiaux .media p
 {
