@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300');
+
 header, section {
 	background-color: white;
 }
@@ -15,15 +18,21 @@ h1 {
 }
 
 h2 {
-	background-color: #de333f;
+	background-color: #f3aa00 ; /*#de333f = rouge #ed9f00 | #eda700 = orange eda700b3 = jaune */ 
 	color: white;
 	text-align: center;
+}
+h1,h2{
+	font-family: 'Montserrat', sans-serif;
+}
+h3, p, h4, h5, h6 {
+	font-family: 'Open Sans', sans-serif;
 }
 .slogan {
 	text-align: center;
 }
 .navbar {
-    background-color: #de333f;
+    background-color: #f3aa00; /*#47c0bc;*/
     width: 100%;
 }
 
@@ -66,10 +75,19 @@ body
 {
 	background-color:#F6F7FA;
 }
+.sectionAccueil{
+	background-color: #fdf0e5; /*#d446514d; | d446511a = rose pale*/
+}
+.sectionConseils{
+	background-color: #d7ecee;
+}
 
 #sectionExercices
 {
-	background-color:#79BBBF;
+	background-color:white;/* #d7ecee = couleurs bleu/vert .... #de333f = rouge*/
+}
+.sectionContact {
+	background-color: #fdf0e5;
 }
 
 #sectionExercices .col-6 h4, #sectionExercices .col-md-3 h4
@@ -150,7 +168,7 @@ body
 }
 #materiaux 
 {
-	background-color: white;
+	background-color: #22338080;
 }
 #materiaux .media p
 {
@@ -206,6 +224,29 @@ body
 }
 
 .carousel
+{
+	width:100%;
+	margin-left:15px;
+	margin-right:15px;
+}
+
+@media (max-width: 399.98px) 
+{
+	header .row
+	{
+		display:none;
+	}
+}
+
+@media (min-width: 400px) 
+{
+	.sliderMobile
+	{
+		display: none;
+	}
+}
+
+.sliderMobile
 {
 	width:100%;
 }
