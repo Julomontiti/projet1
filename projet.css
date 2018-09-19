@@ -215,8 +215,29 @@ body
 .carousel
 {
 	width:100%;
-	margin-left: -15px;
-	margin-right: -15px;
+	margin-left:15px;
+	margin-right:15px;
+}
+
+@media (max-width: 399.98px) 
+{
+	header .row
+	{
+		display:none;
+	}
+}
+
+@media (min-width: 400px) 
+{
+	.sliderMobile
+	{
+		display: none;
+	}
+}
+
+.sliderMobile
+{
+	width:100%;
 }
 
 
