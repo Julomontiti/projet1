@@ -1,7 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300');
 
-header, section {
+header,  {
+	
 	background-color: white;
 }
 
@@ -10,9 +11,11 @@ h1 {
 	
 }
 h2 {
-	background-color: #f3aa00 ; /*#de333f = rouge #ed9f00 | #eda700 = orange eda700b3 = jaune */ 
+	background-color: #e96969 ; /*#de333f = rouge #ed9f00 | #eda700 = orange eda700b3 = jaune */ 
 	color: white;
 	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 h1,h2{
 	font-family: 'Montserrat', sans-serif;
@@ -24,7 +27,7 @@ h3, p, h4, h5, h6 {
 	text-align: center;
 }
 .navbar {
-    background-color: #f3aa00; /*#47c0bc;*/
+    background-color: #e96969; /*#47c0bc;*/
     width: 100%;
 }
 
@@ -68,15 +71,21 @@ body
 	background-color:#F6F7FA;
 }
 .sectionAccueil{
-	background-color: #fdf0e5; /*#d446514d; | d446511a = rose pale*/
+	background-color: white; /*#d446514d; | d446511a = rose pale*/
 }
 .sectionConseils{
-	background-color: #d7ecee;
+	background-color: white; /* #f6636e80; = rose | f7d2d4 = rose plus pale*/
 }
 
 #sectionExercices
 {
-	background-color:white;/* #d7ecee = couleurs bleu/vert .... #de333f = rouge*/
+	background-color: white;/* #d7ecee = couleurs bleu/vert .... #de333f = rouge*/
+}
+.sectionMateriaux{
+	background-color: #f6636e4d;
+}
+.sectiontemoin {
+	background-color: #f6636e4d;
 }
 .sectionContact {
 	background-color: #fdf0e5;
@@ -169,14 +178,16 @@ body
 	box-shadow: 1px 1px 60px 0px #656565;
 	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=60);
 }
+.backContainer
+{
+	width: 200%;
+}
 .conseils
 {
 	margin-bottom: 50px;
 }
-#materiaux 
-{
-	background-color: #22338080;
-}
+
+
 #materiaux .media p
 {
 	text-align: justify;
@@ -221,8 +232,7 @@ body
 	}
 }
 
-<<<<<<< HEAD
-=======
+
 .carousel-inner p
 {
 	font-size:24px;
@@ -262,4 +272,4 @@ body
 }
 
 
->>>>>>> master
+
