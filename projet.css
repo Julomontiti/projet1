@@ -10,9 +10,15 @@ h1 {
 	
 }
 h2 {
-	background-color: #f3aa00 ; /*#de333f = rouge #ed9f00 | #eda700 = orange eda700b3 = jaune */ 
+	/*background-color: #db2d63 ; #de333f = rouge #ed9f00 | #eda700 = orange eda700b3 = jaune */ 
 	color: white;
 	text-align: center;
+	padding:35px;
+	font-weight:bold;
+}
+#allerplusloin h2, #sectionExercices h2
+{
+	color:#035a60;
 }
 h1,h2{
 	font-family: 'Montserrat', sans-serif;
@@ -22,9 +28,10 @@ h3, p, h4, h5, h6 {
 }
 .slogan {
 	text-align: center;
+	padding:45px;
 }
 .navbar {
-    background-color: #f3aa00; /*#47c0bc;*/
+    background-color: #db2d63; /*#47c0bc;*/
     width: 100%;
 }
 
@@ -38,6 +45,10 @@ h3, p, h4, h5, h6 {
 	margin: 20px;
 }
 
+#Accueil
+{
+	color:white;
+}
 
 #temoin2{
 	text-align: right;
@@ -68,7 +79,7 @@ body
 	background-color:#F6F7FA;
 }
 .sectionAccueil{
-	background-color: #fdf0e5; /*#d446514d; | d446511a = rose pale*/
+	background: linear-gradient(135deg, #db2d63 40%,#ee523c 60%); /*#d446514d; | d446511a = rose pale;  background-color: #fdf0e5 = rose pale;*/
 }
 .sectionConseils{
 	background-color: #d7ecee;
@@ -79,15 +90,64 @@ body
 	background-color:white;/* #d7ecee = couleurs bleu/vert .... #de333f = rouge*/
 }
 .sectionContact {
-	background-color: #fdf0e5;
+	background-color: #035a60;
+	color:white;
+}
+
+.sectionContact button, .sectionConseils button
+{
+	margin:30px;
+	color:white;
+	border-radius: 30px;
+	line-height:23px;
+	background-color:#db2d63;
+	border:0px;
+	padding-left:15px;
+	padding-right:15px;
+	-moz-box-shadow: 5px 5px 5px 0px #343434;
+	-webkit-box-shadow: 5px 5px 5px 0px #343434;
+	-o-box-shadow: 5px 5px 5px 0px #343434;
+	box-shadow: 5px 5px 5px 0px #343434;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#343434, Direction=134, Strength=5);
+	font-size:16px;
+}
+
+.sectionConseils button a
+{
+	color:white;
+	border:none;
+}
+
+.allForm{
+	padding-left: 35px;
 }
 
 #sectionExercices .col-6 h4, #sectionExercices .col-md-3 h4
 {
-	background-color:#f3f3f3;
-	color:#484c4f;
+	background-color:#035a60;
+	color:white;
+}
+#sectionExercices .card
+{
+	background-color:#ee523c;
 }
 
+
+.logo{
+	width: 200px;
+}
+.logoAcc {
+	width: 300px;
+	padding-bottom: 40px;
+	padding-left: 50px;
+}
+.intro{
+	padding-top: 20px;
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-bottom: 30px;
+	text-align:justify;
+}
 
 #sectionExercices .modal-dialog
 {
@@ -119,13 +179,13 @@ body
 
 #sectionExercices h2
 {
-	color:white;
+	margin-bottom:30px;
 }
 
 #sectionExercices .row .col-6, #sectionExercices .row .col-md-3
 {
-	margin-top:30px;
-	margin-bottom:30px;
+	margin-top:15px;
+	margin-bottom:15px;
 	width:200px;
 	height:200px;
 }
@@ -133,6 +193,9 @@ body
 #sectionExercices .row
 {
 	margin:0px;
+	padding:15px;
+	padding-top:0px;
+	padding-bottom:0px;
 	width:100%;
 }
 
@@ -148,20 +211,31 @@ body
 	background-color:white;
 	padding-top:56px;
 	padding:0px;
+	margin-bottom:30px;
+}
+
+@media (min-width: 576px)
+{
+	.container{
 	-moz-box-shadow: 1px 1px 60px 0px #656565;
 	-webkit-box-shadow: 1px 1px 60px 0px #656565;
 	-o-box-shadow: 1px 1px 60px 0px #656565;
 	box-shadow: 1px 1px 60px 0px #656565;
 	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=60);
+	}
 }
+
 .conseils
 {
+	margin:20px;
 	margin-bottom: 50px;
 }
 #materiaux 
 {
-	background-color: #22338080;
+	background: linear-gradient(135deg, #db2d63 40%,#ee523c 60%);
+	color:white;
 }
+
 #materiaux .media p
 {
 	text-align: justify;
@@ -187,8 +261,6 @@ body
 
 #allerplusloin .cadre
 {
-	borr: 1px solid black;
-	border-radius: 5px;
 	padding: 10px;
 	overflow: auto;
 }
@@ -197,6 +269,7 @@ body
 @media all and (min-width: 768px){
 	.formModal{
 		visibility: hidden;
+		display:none;
 	}
 }
 
@@ -244,3 +317,38 @@ body
 	width:100%;
 }
 
+#materiaux .col-lg-6, #materiaux .col-xs-12
+{
+	padding:45px;
+}
+
+.sectionConseils h4
+{
+	padding:30px;
+}
+
+.cadre p
+{
+	text-align:justify;
+}
+
+#temoignages .media
+{
+	padding:30px;
+}
+
+#temoignages
+{
+	background: linear-gradient(135deg, #db2d63 40%,#ee523c 60%);
+	color:white;
+}
+
+form
+{
+	margin-right:45px;
+}
+
+#materiaux h5, #allerplusloin h4, #allerplusloin h5, #temoignages h5
+{
+	font-weight:bold;
+}
