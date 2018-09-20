@@ -1,155 +1,24 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300');
 
-header,  {
-	
+header, section {
 	background-color: white;
-}
-.navbar {
-  background-color: #9b59b6;
-}
-.navbar .navbar-brand {
-  color: #ecf0f1;
-}
-.navbar .navbar-brand:hover,
-.navbar .navbar-brand:focus {
-  color: #dbeeff;
-}
-.navbar .navbar-text {
-  color: #ecf0f1;
-}
-.navbar .navbar-text a {
-  color: #dbeeff;
-}
-.navbar .navbar-text a:hover,
-.navbar .navbar-text a:focus {
-  color: #dbeeff; 
-}
-.navbar .navbar-nav .nav-link {
-  color: #ecf0f1;
-  border-radius: .25rem;
-  margin: 0 0.25em;
-}
-.navbar .navbar-nav .nav-link:not(.disabled):hover,
-.navbar .navbar-nav .nav-link:not(.disabled):focus {
-  color: #ffffff;
-}
-.navbar .navbar-nav .nav-item.active .nav-link,
-.navbar .navbar-nav .nav-item.active .nav-link:hover,
-.navbar .navbar-nav .nav-item.active .nav-link:focus,
-.navbar .navbar-nav .nav-item.show .nav-link,
-.navbar .navbar-nav .nav-item.show .nav-link:hover,
-.navbar .navbar-nav .nav-item.show .nav-link:focus {
-  color: #ffffff;
-  background-color: none;
-}
-.navbar .navbar-toggle {
-  border-color: #8e44ad;
-}
-.navbar .navbar-toggle:hover,
-.navbar .navbar-toggle:focus {
-  background-color: #8e44ad;
-}
-.navbar .navbar-toggle .navbar-toggler-icon {
-  color: #ecf0f1;
-}
-.navbar .navbar-collapse,
-.navbar .navbar-form {
-  border-color: #ecf0f1;
-}
-.navbar .navbar-link {
-  color: #ecf0f1;
-}
-.navbar .navbar-link:hover {
-  color: #dbeeff;
-}
-
-@media (max-width: 575px) {
-  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #ecf0f1;
-  }
-  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
-  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-    color: #dbeeff;
-  }
-  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #dbeeff;
-    background-color: #8e44ad;
-  }
-}
-
-@media (max-width: 767px) {
-  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #ecf0f1;
-  }
-  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
-  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-    color: #dbeeff;
-  }
-  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #dbeeff;
-    background-color: #8e44ad;
-  }
-}
-
-@media (max-width: 991px) {
-  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #ecf0f1;
-  }
-  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
-  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-    color: #dbeeff;
-  }
-  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #dbeeff;
-    background-color: #8e44ad;
-  }
-}
-
-@media (max-width: 1199px) {
-  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #ecf0f1;
-  }
-  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
-  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-    color: #dbeeff;
-  }
-  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #dbeeff;
-    background-color: #8e44ad;
-  }
-}
-
-.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
-  color: #ecf0f1;
-}
-.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
-.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-  color: #dbeeff;
-}
-.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
-  color: #dbeeff;
-  background-color: #8e44ad;
 }
 
 h1 {
-  font-size: 48px;
-  text-shadow: -1px -1px #000, 1px 1px #000, -3px 0 4px #000;
-  color: #000000;
-  padding:10px 0 0 0;
-  margin:16px auto;
-  min-height:172px;
-  min-width:800;
-  max-height:172px;
-  max-width:800px;  
+	margin: 20px;
+	
 }
-
 h2 {
-	background-color: #e96969 ; /*#de333f = rouge #ed9f00 | #eda700 = orange eda700b3 = jaune */ 
+	/*background-color: #db2d63 ; #de333f = rouge #ed9f00 | #eda700 = orange eda700b3 = jaune */ 
 	color: white;
 	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding:35px;
+	font-weight:bold;
+}
+#allerplusloin h2, #sectionExercices h2
+{
+	color:#035a60;
 }
 h1,h2{
 	font-family: 'Montserrat', sans-serif;
@@ -159,9 +28,10 @@ h3, p, h4, h5, h6 {
 }
 .slogan {
 	text-align: center;
+	padding:45px;
 }
 .navbar {
-    background-color: #e96969; /*#47c0bc;*/
+    background-color: #db2d63; /*#47c0bc;*/
     width: 100%;
 }
 
@@ -175,6 +45,10 @@ h3, p, h4, h5, h6 {
 	margin: 20px;
 }
 
+#Accueil
+{
+	color:white;
+}
 
 #temoin2{
 	text-align: right;
@@ -205,34 +79,60 @@ body
 	background-color:#F6F7FA;
 }
 .sectionAccueil{
-	background-color: white; /*#d446514d; | d446511a = rose pale*/
+	background: linear-gradient(135deg, #db2d63 40%,#ee523c 60%); /*#d446514d; | d446511a = rose pale;  background-color: #fdf0e5 = rose pale;*/
 }
 .sectionConseils{
-	background-color: white; /* #f6636e80; = rose | f7d2d4 = rose plus pale*/
+	background-color: #d7ecee;
 }
 
 #sectionExercices
 {
-	background-color: white;/* #d7ecee = couleurs bleu/vert .... #de333f = rouge*/
-}
-.sectionMateriaux{
-	background-color: #f6636e4d;
-}
-.sectiontemoin {
-	background-color: #f6636e4d;
+	background-color:white;/* #d7ecee = couleurs bleu/vert .... #de333f = rouge*/
 }
 .sectionContact {
-	background-color: #fdf0e5;
+	background-color: #035a60;
+	color:white;
 }
+
+.sectionContact button, .sectionConseils button
+{
+	margin:30px;
+	color:white;
+	border-radius: 30px;
+	line-height:23px;
+	background-color:#db2d63;
+	border:0px;
+	padding-left:15px;
+	padding-right:15px;
+	-moz-box-shadow: 5px 5px 5px 0px #343434;
+	-webkit-box-shadow: 5px 5px 5px 0px #343434;
+	-o-box-shadow: 5px 5px 5px 0px #343434;
+	box-shadow: 5px 5px 5px 0px #343434;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#343434, Direction=134, Strength=5);
+	font-size:16px;
+}
+
+.sectionConseils button a
+{
+	color:white;
+	border:none;
+}
+
 .allForm{
 	padding-left: 35px;
 }
 
 #sectionExercices .col-6 h4, #sectionExercices .col-md-3 h4
 {
-	background-color:#f3f3f3;
-	color:#484c4f;
+	background-color:#035a60;
+	color:white;
 }
+#sectionExercices .card
+{
+	background-color:#ee523c;
+}
+
+
 .logo{
 	width: 200px;
 }
@@ -244,7 +144,9 @@ body
 .intro{
 	padding-top: 20px;
 	padding-right: 10%;
+	padding-left: 10%;
 	padding-bottom: 30px;
+	text-align:justify;
 }
 
 #sectionExercices .modal-dialog
@@ -277,13 +179,13 @@ body
 
 #sectionExercices h2
 {
-	color:white;
+	margin-bottom:30px;
 }
 
 #sectionExercices .row .col-6, #sectionExercices .row .col-md-3
 {
-	margin-top:30px;
-	margin-bottom:30px;
+	margin-top:15px;
+	margin-bottom:15px;
 	width:200px;
 	height:200px;
 }
@@ -291,6 +193,9 @@ body
 #sectionExercices .row
 {
 	margin:0px;
+	padding:15px;
+	padding-top:0px;
+	padding-bottom:0px;
 	width:100%;
 }
 
@@ -306,21 +211,30 @@ body
 	background-color:white;
 	padding-top:56px;
 	padding:0px;
+	margin-bottom:30px;
+}
+
+@media (min-width: 576px)
+{
+	.container{
 	-moz-box-shadow: 1px 1px 60px 0px #656565;
 	-webkit-box-shadow: 1px 1px 60px 0px #656565;
 	-o-box-shadow: 1px 1px 60px 0px #656565;
 	box-shadow: 1px 1px 60px 0px #656565;
 	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=60);
-}
-.backContainer
-{
-	width: 200%;
-}
-.conseils
-{
-	margin-bottom: 50px;
+	}
 }
 
+.conseils
+{
+	margin:20px;
+	margin-bottom: 50px;
+}
+#materiaux 
+{
+	background: linear-gradient(135deg, #db2d63 40%,#ee523c 60%);
+	color:white;
+}
 
 #materiaux .media p
 {
@@ -347,8 +261,6 @@ body
 
 #allerplusloin .cadre
 {
-	borr: 1px solid black;
-	border-radius: 5px;
 	padding: 10px;
 	overflow: auto;
 }
@@ -357,6 +269,7 @@ body
 @media all and (min-width: 768px){
 	.formModal{
 		visibility: hidden;
+		display:none;
 	}
 }
 
@@ -365,6 +278,7 @@ body
 		display: none;
 	}
 }
+
 .carousel-inner p
 {
 	font-size:24px;
@@ -403,3 +317,38 @@ body
 	width:100%;
 }
 
+#materiaux .col-lg-6, #materiaux .col-xs-12
+{
+	padding:45px;
+}
+
+.sectionConseils h4
+{
+	padding:30px;
+}
+
+.cadre p
+{
+	text-align:justify;
+}
+
+#temoignages .media
+{
+	padding:30px;
+}
+
+#temoignages
+{
+	background: linear-gradient(135deg, #db2d63 40%,#ee523c 60%);
+	color:white;
+}
+
+form
+{
+	margin-right:45px;
+}
+
+#materiaux h5, #allerplusloin h4, #allerplusloin h5, #temoignages h5
+{
+	font-weight:bold;
+}
