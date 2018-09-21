@@ -88,13 +88,14 @@ body
 #sectionExercices
 {
 	background-color:white;/* #d7ecee = couleurs bleu/vert .... #de333f = rouge*/
+	padding-bottom:60px;
 }
 .sectionContact {
 	background-color: #035a60;
 	color:white;
 }
 
-.sectionContact button, .sectionConseils button
+.sectionContact button, .sectionConseils button, .formModal button
 {
 	margin:30px;
 	color:white;
@@ -112,10 +113,20 @@ body
 	font-size:16px;
 }
 
+.sectionContact button:hover, .sectionConseils button:hover, .formModal button:hover
+{
+	background-color:#b61f4e;
+}
+
 .sectionConseils button a
 {
 	color:white;
 	border:none;
+}
+
+.sectionConseils button
+{
+	margin-bottom:60px;
 }
 
 .allForm{
@@ -124,12 +135,13 @@ body
 
 #sectionExercices .col-6 h4, #sectionExercices .col-md-3 h4
 {
-	background-color:#035a60;
+	background-color:#db2d63;
 	color:white;
 }
 #sectionExercices .card
 {
 	background-color:#ee523c;
+	border:solid 3px #db2d63;
 }
 
 
@@ -188,6 +200,12 @@ body
 	margin-bottom:15px;
 	width:200px;
 	height:200px;
+}
+
+#sectionExercices .row .col-6
+{
+	padding-left:5px;
+	padding-right:5px;
 }
 
 #sectionExercices .row
