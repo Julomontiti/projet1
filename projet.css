@@ -6,7 +6,8 @@ header, section {
 }
 
 h1 {
-	margin: 20px;
+	/*margin: 20px;*/
+
 	
 }
 h2 {
@@ -29,11 +30,14 @@ h3, p, h4, h5, h6 {
 .slogan {
 	text-align: center;
 	padding:7vh;
-	font-size: 4vh
+	font-size: 4.5vh;
 }
 .navbar {
     background-color: #db2d63; /*#47c0bc;*/
     width: 100%;
+}
+.logoNav{
+	height: 30px;
 }
 
 #sectionaccueil {
@@ -158,7 +162,7 @@ body
 	padding-top: 20px;
 	padding-right: 10%;
 	padding-left: 10%;
-	padding-bottom: 30px;
+	padding-bottom: 5vh;
 	text-align:justify;
 }
 
