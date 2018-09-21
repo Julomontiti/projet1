@@ -13,7 +13,7 @@ h2 {
 	/*background-color: #db2d63 ; #de333f = rouge #ed9f00 | #eda700 = orange eda700b3 = jaune */ 
 	color: white;
 	text-align: center;
-	padding:35px;
+	padding:5vh;
 	font-weight:bold;
 }
 #allerplusloin h2, #sectionExercices h2
@@ -28,7 +28,8 @@ h3, p, h4, h5, h6 {
 }
 .slogan {
 	text-align: center;
-	padding:45px;
+	padding:7vh;
+	font-size: 4vh
 }
 .navbar {
     background-color: #db2d63; /*#47c0bc;*/
@@ -36,7 +37,7 @@ h3, p, h4, h5, h6 {
 }
 
 #sectionaccueil {
-	padding: 15px;
+	padding: 2vw;
 	margin: 20px;
 }
 
